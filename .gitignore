@@ -1,2 +1,3 @@
-/dist-newstyle
-/.vscode
+/dist-newstyle/
+.vscode/
+.stack-work/

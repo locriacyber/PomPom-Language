@@ -42,5 +42,5 @@ main = do
               Just x -> putStrLn . typeCheck $ snd x;
               Nothing -> putStrLn "PomPom : Error on executing file"
             }
-        (x : xs) -> putStrLn "Error, there is no that option"
+        (x' : xs) -> putStrLn "Error, there is no that option"
         [] -> putStrLn "Pompom file don't found"
